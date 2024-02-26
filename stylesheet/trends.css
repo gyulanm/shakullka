@@ -1,0 +1,18 @@
+.banner__content {
+    background: url(../img/trends/bannerimg.jpg) center center no-repeat;
+    height: 741px;
+    width: 1245px;
+    background-size: cover;
+}
+
+.next_btn {
+    gap: 50px;
+    border: none;
+    background: none;
+    /* height: 31px;
+    width: 19px; */
+}
+
+.popular__img {
+    border-radius: 381px;
+}

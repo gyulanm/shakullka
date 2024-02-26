@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Bickham Script One';
+    src: url('path/to/bickham-script-one-regular.woff2') format('woff2'),
+        url('path/to/bickham-script-one-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.tiffany {
+    display: flex;
+    flex-direction: column;
+    row-gap: 280px;
+    width: 100%;
+    padding-top: 149px;
+}
+
+.tiffany_history {
+    display: flex;
+    flex-direction: row;
+    column-gap: 134px;
+    width: 100%;
+
+}
+
+.num {
+    display: flex;
+    flex-direction: column;
+    row-gap: 23px;
+    padding-top: 230px;
+
+}
+
+.num__link {
+    font-family: 'Copperplate';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 23px;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.info_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.info_topic {
+    max-width: 453px;
+    width: 100%;
+    text-align: center;
+}
+
+/* .info_title {
+    color: #000000;
+    font-size: 183px;
+    font-family: Bickham Script One;
+} */
+.info_title {
+    color: #000000;
+    font-size: 183px;
+    font-family: 'Bickham Script One', cursive;
+    font-weight: normal;
+    margin: 0;
+    line-height: 183px;
+}
+
+.info_subtitle {
+    color: #000000;
+    font-size: 32px;
+    font-family: 'Copperplate', serif;
+    font-weight: 400;
+    line-height: normal;
+    margin-block: 8px;
+}
+
+.info_text {
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 200;
+}
+
+.shop_img {
+    width: 489px;
+    height: 413px;
+}
+
+.catalogue__img {
+    width: 531px;
+    height: 413px;
+}
+
+.building_img {
+    width: 487px;
+    height: 378px;
+}
+
+.moodboard_img {
+    width: 531px;
+    height: 489px;
+}
+
+.portret_img {
+    width: 485px;
+    height: 413px;
+}
+
+.almaz_img {
+    width: 528px;
+    height: 413px;
+}
+
+.ring_img {
+    width: 485px;
+    height: 413px;
+}
+
+.magazin_img {
+    width: 399px;
+    height: 585px;
+}

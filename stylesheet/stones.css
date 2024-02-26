@@ -1,0 +1,18 @@
+.banner__content {
+    background: url(../img/stones/banner.jpg) center center no-repeat;
+    height: 741px;
+    width: 1245px;
+    background-size: cover;
+}
+
+.popular__img {
+    border-radius: 381px;
+    padding: 158px 89px;
+}
+
+.backgradient {
+    width: 345px;
+    height: 477px;
+    border-radius: 381px;
+    background: #F9F9F9;
+}

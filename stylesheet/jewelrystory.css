@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito+Sans&display=swap');
+
+.jewelry__title {
+    font-family: Bickham Script One;
+    font-size: 101px;
+    line-height: normal;
+}
+.jewelry__text {
+    font-family: Nunito Sans;
+    font-size: 21px;
+    line-height: normal;
+    padding-bottom: 67px;
+}
+.card--long {
+    grid-column: span 2;
+
+}
+.catalog__wrapper {
+    display: grid;
+    grid-template-columns: repeat(4,2fr);    
+    gap: 33px;
+    width: 100%;
+}
+.card__title {
+    font-family: Copperplate;
+    font-size: 21px;
+    line-height: normal;
+    font-weight: 400;
+    padding-top: 12px;
+}
+.card__text {
+    font-family: Nunito Sans;
+    font-size: 17px;
+    line-height: normal;
+}
+
+.author__text {
+    font-family: Copperplate;
+    font-size: 16px;
+    line-height: bold;
+    font-weight: 400;
+    padding-top: 12px;
+}
+
