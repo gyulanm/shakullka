@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./stylesheet/common.css">
     <link rel="stylesheet" href="./stylesheet/header.css">
     <link rel="stylesheet" href="./stylesheet/jewelry.css">
+    <link rel="stylesheet" href="./stylesheet/comment.css">
+    <link rel="stylesheet" href="./stylesheet/zircon.css">
     <link rel="stylesheet" href="./stylesheet/footer.css">
     <title>header</title>
 </head>
@@ -20,8 +22,12 @@
                     <span class="logo_word word">Ш</span>катулка
                 </h1>
                 <div class="header__icons icons">
-                    <img class="profile" src="./img/header/profile.svg" alt="">
-                    <img class="Search" src="./img/header/Search.svg" alt="">
+                    <a href="./enter.html">
+                        <img class="profile" src="./img/header/profile.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img class="Search" src="./img/header/Search.svg" alt="">
+                    </a>
                 </div>
             </div>
             <div class="divider">
@@ -32,19 +38,17 @@
                 <a class="nav__link " href="./stones.html">Камни</a>
                 <a class="nav__link nav__link--selected" href="./jewelrystory.html">Украшения</a>
                 <a class="nav__link" href="./history.html">История</a>
-                <a class="nav__link" href="">Обмен</a>
             </div>
         </div>
     </header>
     <section class="main-section">
-        <div>
-            <button class="bttn">
+        <div class="main__navigation">
+            <a href="./jewelry.html" class="bttn">
                 <img src="./img/jewelry/btn.svg" alt="">
-            </button>
+            </a>
             <p class="author grey__text">Автор
                 статьи:<br>Анастасия
                 Волковская</p>
-            <img src="./img/jewelry/black.png" alt="">
         </div>
         <div class="background">
             <div class="banner">
@@ -52,7 +56,7 @@
                 </div>
                 <div class="jewelry">
                     <div class="title__name">
-                        <p class="tab grey__text">укррашения/<br>Украшения<br>Грейс Келли</p>
+                        <p class="tab grey__text">Укррашения/<br>Украшения Грейс Келли</p>
                         <h1 class="jewelry_title">Украшения Грейс Келли</h1>
                         <div class="icon">
                             <img class="icon__img" src="./img/jewelry/watch.svg" alt="">
@@ -120,9 +124,12 @@
                             <h1 class="title_flex jewelry_title">Тиара с кабошонами</h1>
                             <p class="jewelry__text">Великолепную тиару Bains de Mer от Cartier Грейс Келли надела на
                                 следующий день после свадьбы.<br>Бриллиантовое украшение декорировано тремя цветками с
-                                рубиновыми кабошонами в центре. Каждый<br>цветок снимается и превращается в брошь. Вместе с
-                                тиарой на Грейс красовалось бриллиантовое колье,<br>которое позже по заказу княгини будет
-                                переделано в тиару. Точную копию этого украшения можно увидеть<br>на актрисе Николь Кидман,
+                                рубиновыми кабошонами в центре. Каждый<br>цветок снимается и превращается в
+                                брошь. Вместе с
+                                тиарой на Грейс красовалось бриллиантовое колье,<br>которое позже по заказу княгини
+                                будет
+                                переделано в тиару. Точную копию этого украшения можно увидеть<br>на актрисе Николь
+                                Кидман,
                                 сыгравшей Грейс Келли в фильме «Принцесса Монако».</p>
                             <div class="jewelry_flex">
                                 <div class="img__text">
@@ -136,9 +143,12 @@
                             <h1 class="title_flex jewelry_title">Легендарные четырехлистники </h1>
                             <p class="jewelry__text">Великолепную тиару Bains de Mer от Cartier Грейс Келли надела на
                                 следующий день после свадьбы.<br>Бриллиантовое украшение декорировано тремя цветками с
-                                рубиновыми кабошонами в центре. Каждый<br>цветок снимается и превращается в брошь. Вместе с
-                                тиарой на Грейс красовалось бриллиантовое колье,<br>которое позже по заказу княгини будет
-                                переделано в тиару. Точную копию этого украшения можно увидеть<br>на актрисе Николь Кидман,
+                                рубиновыми кабошонами в центре. Каждый<br>цветок снимается и превращается в
+                                брошь. Вместе с
+                                тиарой на Грейс красовалось бриллиантовое колье,<br>которое позже по заказу княгини
+                                будет
+                                переделано в тиару. Точную копию этого украшения можно увидеть<br>на актрисе Николь
+                                Кидман,
                                 сыгравшей Грейс Келли в фильме «Принцесса Монако».</p>
                             <div class="jewelry_flex">
                                 <div class="img__text">
@@ -153,13 +163,13 @@
                 <div class="popular">
                     <div class="wrapper">
                         <div class="title-group">
-                            <h1 class="jewelry_title">Рекомендуемые</h1>
+                            <a class="popular title-main" href="">Рекомендуемые</a>
                             <div class="divider__second">
                                 <div class="highlight__second"></div>
                             </div>
                         </div>
-                        <div class="popular rec__visible">
-                            <div class="popular__flex rec__flex">
+                        <div class="popular rec__visible popular__slider">
+                            <div class="popular__flex rec__flex ">
                                 <div class="popular__item rec__item">
                                     <img class="popular__img rec__img" src="./img/trends/card3.jpg" alt="">
                                     <p class="popular__text rec__text text"> Трансформируемое колье<br>Snowflake
@@ -176,6 +186,78 @@
                                     <p class="popular__text rec__text text">ROSE Х Tiffany HardWear</p>
                                     <button class="popular__btn rec__btn">#Камни</button>
                                 </div>
+                                <div class="popular__item rec__item hidden">
+                                    <img class="popular__img rec__img" src="./img/trends/6.jpg" alt="">
+                                    <p class="popular__text rec__text text"> Крупный сапфир<br>в обрамлении
+                                        риллиантов<br>б— это брошь</p>
+                                    <button class="popular__btn rec__btn">#Камни</button>
+                                </div>
+                                <div class="popular__item rec__item hidden">
+                                    <img class="popular__img rec__img" src="./img/trends/7.jpg" alt="">
+                                    <p class="popular__text rec__text text"> Элизабет Тейлор<br>— королева рубинов</p>
+                                    <button class="popular__btn rec__btn">#Камни</button>
+                                </div>
+                                <div class="popular__item rec__item hidden">
+                                    <img class="popular__img rec__img" src="./img/trends/8.jpg" alt="">
+                                    <p class="popular__text rec__text text"> В переводе с итальянского<br>«Serpenti» —
+                                        это «змеи»</p>
+                                    <button class="popular__btn rec__btn">#Камни</button>
+                                </div>
+                            </div>
+                            <button class="next_btn">
+                                <img src="./img/trends/next.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="comment__wrapper">
+                        <div class="title-group">
+                            <h1 class="jewelry_title">2 комментария</h1>
+                            <div class="divider__second">
+                                <div class="highlight__second"></div>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <div class="cooment1">
+                                <div class="slot">
+                                    <img class="avatar" src="./img/comment/avatar1.jpg" alt="Avatar">
+                                    <div class="account-info">
+                                        <span class="account-name">Cherrygirl</span>
+                                        <span class="time-ago">2 часа</span>
+                                    </div>
+                                </div>
+                                <div class="comment-content">
+                                    <p class="comment-text">Какая красота! Глаз не оторвать</p>
+                                    <div class="interactions">
+                                        <img class="like-icon" src="./img/comment/like.svg" alt="Like">
+                                        <span class="like-count">8</span>
+                                        <span class="reply">Ответить</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cooment2">
+                                <div class="slot">
+                                    <img class="avatar" src="./img/comment/avatar2.jpg" alt="Avatar">
+                                    <div class="account-info">
+                                        <span class="account-name">Leylalyy</span>
+                                        <span class="time-ago">2 часа</span>
+                                    </div>
+                                </div>
+                                <div class="comment-content">
+                                    <p class="comment-text">Я фанатка этой женщины!</p>
+                                    <div class="interactions">
+                                        <img class="like-icon" src="./img/comment/like.svg" alt="Like">
+                                        <span class="like-count">4</span>
+                                        <span class="reply">Ответить</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment-form-container">
+                                <form class="comment-form" action="submit-comment.php" method="post">
+                                    <textarea name="comment" placeholder="Написать комментарии..."></textarea>
+                                    <button type="submit" class="submit-btn">Отправить</button>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -246,4 +328,6 @@
         </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
+</html>

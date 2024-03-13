@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./stylesheet/common.css">
     <link rel="stylesheet" href="./stylesheet/header.css">
-    <link rel="stylesheet" href="./stylesheet/history.css">
+    <link rel="stylesheet" href="./stylesheet/support.css">
     <link rel="stylesheet" href="./stylesheet/footer.css">
     <title>header</title>
 </head>
@@ -21,7 +21,7 @@
                 </h1>
                 <div class="header__icons icons">
                     <a href="./enter.html">
-                        <img class="profile" src="./img/header/profile.svg" alt="">
+                        <img class="profile " src="./img/header/profile.svg" alt="">
                     </a>
                     <a href="">
                         <img class="Search" src="./img/header/Search.svg" alt="">
@@ -32,55 +32,48 @@
                 <div class="highlight"></div>
             </div>
             <div class="header__nav nav">
-                <a class="nav__link" href="./trends.html">Тренды</a>
-                <a class="nav__link" href="./stones.html">Камни</a>
-                <a class="nav__link " href="./jewelrystory.html">Украшения</a>
-                <a class="nav__link nav__link--selected" href="./history.html">История</a>
+                <a class="nav__link " href="./trends.html">Тренды</a>
+                <a class="nav__link " href="./stones.html">Камни</a>
+                <a class="nav__link" href="./jewelrystory.html">Украшения</a>
+                <a class="nav__link" href="./history.html">История</a>
             </div>
         </div>
     </header>
     <section class="main-section">
         <div class="background">
             <div class="banner">
-                <div class="title-group">
-                    <a class="archiev title-main" href="">Архив</a>
-                    <div class="divider__second">
-                        <div class="highlight__second"></div>
+                <div class="support">
+                    <div class="supcontent">
+                        <img class="supimg" src="./img/support/img.jpg" alt="">
+                        <h1 class="supname">Айсель Магеррамова</h1>
                     </div>
-                </div>
-                <div class="history">
-                    <div class="history__card tiffany__card">
-                        <a class="history__card">
-                            <button class="bttn back">
-                                <img src="./img/history/back.svg" alt="">
-                            </button>
-                            <a href="./tiffany.html">
-                                <img src="./img/history/1.jpg" href="./tiffany.html" alt="">
+                    <div class="data">
+                        <ul class="social">
+                            <li>Ник: @ayselmg</li>
+                            <li>Почта: aysel@mail.ru</li>
+                        </ul>
+                        <ul class="follows social">
+                            <li class="sub"> <img src="./img/support/sub.svg" alt="">Подписки: 1356</li>
+                            <li class="sub"> <img src="./img/support/fol.svg" alt="">Подписчики: 356</li>
+                        </ul>
+                    </div>
+                    <div class="article">
+                        <div class="article__nav">
+                            <a class="article__link" href="">Статьи</a>
+                            <a class="article__link" href="">Лайки</a>
+                        </div>
+                        <div class="article__column">
+                            <div class="support__text">
+                                <h2 class="article__text">Напишите первую статью, чтобы привлечь<br>читателей в ваш блог
+                                </h2>
+                            </div>
+                            <a href="./publish.html">
+                                <button class="article__button">Создать запись</button>
                             </a>
-                            <button class="bttnnx bttn arrow">
-                                <img src="./img/history/arrow.svg" alt="">
-                            </button>
-                    </div>
-                    <div class="history__card bvglar__card hidden">
-                        <button class="bttn back">
-                            <img class="bvg__img" src="./img/history/back.svg" alt="">
-                        </button>
-                        <a href="./tiffany.html">
-                            <img src="./img/history/bvg.jpg" href="./tiffany.html" alt="">
-                        </a>
-                        <button class="bttnpr bttn arrow">
-                            <img src="./img/history/arrow.svg" alt="">
-                        </button>
+                        </div>
                     </div>
                 </div>
             </div>
-            <h2 class="history__calculate">1/5</h2>
-            <h2 class="history__calculate hidden">2/5</h2>
-            <h2 class="history__calculate hidden">3/5</h2>
-            <h2 class="history__calculate hidden">4/5</h2>
-            <h2 class="history__calculate hidden">5/5</h2>
-        </div>
-        </div>
         </div>
     </section>
     <footer>
@@ -144,5 +137,4 @@
         </div>
         </div>
     </footer>
-    <script src="slider.js"></script>
 </body>

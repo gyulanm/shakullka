@@ -1,0 +1,84 @@
+.enter {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.title__enter {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.mail {
+    border: 2px solid #99A3BC;
+    font-size: 22px;
+    color: #595959;
+    width: 471px;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.password {
+    border-radius: 12px;
+    padding: 20px;
+    font-size: 22px;
+    color: #595959;
+    width: 471px;
+    border: 2px solid #E2E2E2;
+    background-color: rgba(217, 217, 217, 0.5);
+}
+
+.wrapper__denter {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.reg {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+}
+
+.enter_btn {
+    border-radius: 12px;
+    width: 515px;
+    height: 68px;
+    background-color: black;
+    border: none;
+}
+
+.btn__text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 21px;
+    color: white;
+    text-align: center;
+}
+
+.not {
+    font-size: 23px;
+    color: black;
+}
+
+.regist {
+    font-size: 23px;
+    color: #595959;
+}
+
+.use {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 23px;
+    color: black;
+}
+.backarrow {
+    transform: rotate(180deg);
+}
+.backarrow__text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    color: #595959;
+}
+
+.backarrow__wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+}

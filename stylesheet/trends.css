@@ -1,18 +1,45 @@
 .banner__content {
     background: url(../img/trends/bannerimg.jpg) center center no-repeat;
-    height: 741px;
     width: 1245px;
     background-size: cover;
+    border-radius: 14px;
 }
 
 .next_btn {
-    gap: 50px;
     border: none;
     background: none;
-    /* height: 31px;
-    width: 19px; */
+    padding: 20px;
 }
-
+.popular__item {
+    padding: 20px 40px;
+}
+.rec_gap{
+    padding: 22px 80px;
+}
 .popular__img {
     border-radius: 381px;
+}
+.rhombus {
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+    padding-top: 48px;
+    padding-bottom: 30px;
+}
+.diamond {
+    position: relative;
+    width: 28px;
+    height: 28px;
+    border: 3px solid #D9D9D9; /* Черная граница для всех ромбиков */
+    transform: rotate(45deg); /* Поворот на 45 градусов для создания ромба */
+    background-color: transparent;
+}
+
+
+.diamond.active {
+    background-color: #fff; /* Белый цвет для закрашенных ромбиков */
+    /* border: 3px solid #D9D9D9; Черная граница для всех ромбиков */
+}
+.hidden {
+    display: none;
 }

@@ -3,10 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./stylesheet/common.css">
     <link rel="stylesheet" href="./stylesheet/header.css">
-    <link rel="stylesheet" href="./stylesheet/history.css">
+    <link rel="stylesheet" href="./stylesheet/post.css">
+    <link rel="stylesheet" href="./stylesheet/support.css">
     <link rel="stylesheet" href="./stylesheet/footer.css">
     <title>header</title>
 </head>
@@ -32,57 +33,67 @@
                 <div class="highlight"></div>
             </div>
             <div class="header__nav nav">
-                <a class="nav__link" href="./trends.html">Тренды</a>
-                <a class="nav__link" href="./stones.html">Камни</a>
-                <a class="nav__link " href="./jewelrystory.html">Украшения</a>
-                <a class="nav__link nav__link--selected" href="./history.html">История</a>
+                <a class="nav__link nav__link--selected" href="./trends.html">Тренды</a>
+                <a class="nav__link " href="./stones.html">Камни</a>
+                <a class="nav__link" href="./jewelrystory.html">Украшения</a>
+                <a class="nav__link" href="./history.html">История</a>
             </div>
         </div>
     </header>
     <section class="main-section">
         <div class="background">
             <div class="banner">
-                <div class="title-group">
-                    <a class="archiev title-main" href="">Архив</a>
-                    <div class="divider__second">
-                        <div class="highlight__second"></div>
+                <div class="support">
+                    <div class="supcontent">
+                        <img class="supimg" src="./img/support/img.jpg" alt="">
+                        <h1 class="supname">Айсель Магеррамова</h1>
                     </div>
-                </div>
-                <div class="history">
-                    <div class="history__card tiffany__card">
-                        <a class="history__card">
-                            <button class="bttn back">
-                                <img src="./img/history/back.svg" alt="">
-                            </button>
-                            <a href="./tiffany.html">
-                                <img src="./img/history/1.jpg" href="./tiffany.html" alt="">
+                    <div class="data">
+                        <ul class="social">
+                            <li>Ник: @ayselmg</li>
+                            <li>Почта: aysel@mail.ru</li>
+                        </ul>
+                        <ul class="follows social">
+                            <li class="sub"> <img src="./img/support/sub.svg" alt="">Подписки: 1356</li>
+                            <li class="sub"> <img src="./img/support/fol.svg" alt="">Подписчики: 356</li>
+                        </ul>
+                    </div>
+                    <div class="article">
+                        <div class="article__nav">
+                            <a class="article__link" href="">Статьи</a>
+                            <a class="article__link" href="">Лайки</a>
+                        </div>
+                        <div class="position">
+                            <div class="panel">
+                                <div class="origin">
+                                    <img class="post__img" src="./img/zircon/post.jpg" alt="">
+                                    <div class="post__desc">
+                                        <div class="post__shell">
+                                            <h2 class="post__name">Циркон</h2>
+                                            <p class="post__title">Камни/Циркон</p>
+                                            <img class="post__icon" src="./img/zircon/pen.svg" alt="">
+                                        </div>
+                                        <p class="post__text">
+                                            Цирко́н (нем. Zirkon ← перс. زرگون‎ [заргун] «золотистый»)— минерал
+                                            подкласса<br> островных силикатов, ортосиликат циркония<br>ZrSiO4.
+                                            Содержит, как правило,1−4%гафния,<br>изоморфно замещающего цирконий
+                                            в<br>кристаллической решётке. Также может<br>содержать другие редкоземельные
+                                            элементы в незначительных количествах...
+                                        </p>
+                                        <p class="post__date">08.03.2024</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="./support.html">
+                                <img class="plus" src="./img/zircon/plus.svg" alt="">
                             </a>
-                            <button class="bttnnx bttn arrow">
-                                <img src="./img/history/arrow.svg" alt="">
-                            </button>
-                    </div>
-                    <div class="history__card bvglar__card hidden">
-                        <button class="bttn back">
-                            <img class="bvg__img" src="./img/history/back.svg" alt="">
-                        </button>
-                        <a href="./tiffany.html">
-                            <img src="./img/history/bvg.jpg" href="./tiffany.html" alt="">
-                        </a>
-                        <button class="bttnpr bttn arrow">
-                            <img src="./img/history/arrow.svg" alt="">
-                        </button>
+                        </div>
                     </div>
                 </div>
             </div>
-            <h2 class="history__calculate">1/5</h2>
-            <h2 class="history__calculate hidden">2/5</h2>
-            <h2 class="history__calculate hidden">3/5</h2>
-            <h2 class="history__calculate hidden">4/5</h2>
-            <h2 class="history__calculate hidden">5/5</h2>
-        </div>
-        </div>
         </div>
     </section>
+
     <footer>
         <div class="container">
             <img class="footer__detail" src="./img/common/footer.png" alt="">
@@ -92,7 +103,8 @@
                         <h1 class="footer__name title--wht">
                             <span class="footer_word">Ш</span>катулка
                         </h1>
-                        <p class="footer__text">Шкатулка — самый утонченный медиа-сервис,<br>хранящий истории
+                        <p class="footer__text">Шкатулка — самый утонченный
+                            медиа-сервис,<br>хранящий истории
                             легендарных
                             украшений<br>и драгоценных камней</p>
                     </div>
@@ -122,7 +134,8 @@
                                     <div class="footer__info">
                                         <h3 class="footer__subtitle">О нас</h3>
                                         <ul class="footer__menu">
-                                            <li><a class="footer__common text--opacity " href="">Команда</a></li>
+                                            <li><a class="footer__common text--opacity " href="">Команда</a>
+                                            </li>
                                             <li><a class="footer__common text--opacity " href="">Правила
                                                     платформы</a>
                                             </li>
@@ -132,7 +145,8 @@
                                 <ul class="footer__detals">
                                     <li><a class="footer__common common--white ">Пользовательское
                                             соглашение</a></li>
-                                    <li><a class="footer__common common--white " href="">HSE ADC</a></li>
+                                    <li><a class="footer__common common--white " href="">HSE ADC</a>
+                                    </li>
                                     <a class="copyright">@2023</a>
                                 </ul>
                             </div>
@@ -144,5 +158,4 @@
         </div>
         </div>
     </footer>
-    <script src="slider.js"></script>
 </body>

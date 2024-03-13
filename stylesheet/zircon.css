@@ -1,0 +1,66 @@
+.main-section {
+    background: #EEEDEC;
+    display: flex;
+    flex-direction: row;
+    padding-left: 42px;
+    column-gap: 46px;
+}
+
+.main__navigation {
+    display: flex;
+    flex-direction: column;
+    row-gap: 450px;
+    padding-top: 17px;
+}
+
+.background {
+    margin: 0px;
+}
+
+.banner__img {
+    background: url(../img/zircon/bannerzircon.jpg) center center no-repeat;
+}
+
+.banner__img {
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 14px;
+    padding: 496px 385px 30px 396px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slot {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons__img {
+    background: transparent;
+    border: 2px solid #000000;
+    margin-right: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+}
+
+.img__js {
+    justify-content: center;
+    display: flex;
+}
+
+.zir {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}

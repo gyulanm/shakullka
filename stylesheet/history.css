@@ -44,36 +44,44 @@
 .history {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Это распределит кнопки и картинку равномерно по горизонтали */
+    justify-content: space-between;
+    margin-left: -105px;
+    /* Это распределит кнопки и картинку равномерно по горизонтали */
 }
 
 .bttn {
     display: flex;
-    justify-content: center; /* Это центрирует содержимое кнопок */
-    align-items: center; /* Это центрирует содержимое кнопок по вертикали */
-    border-radius:   50%;
-    width:   65px;
-    height:   65px;
+    justify-content: center;
+    /* Это центрирует содержимое кнопок */
+    align-items: center;
+    /* Это центрирует содержимое кнопок по вертикали */
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
     background: transparent;
-    border:   2px solid #000000;
+    border: 2px solid #000000;
 }
 
 .back {
     background: transparent;
-    border:   2px solid #000000;
-    margin-right:  21px; /* Добавляем правый отступ к кнопке "bttn back" */
+    border: 2px solid #000000;
+    margin-right: 21px;
+    /* Добавляем правый отступ к кнопке "bttn back" */
 }
 
 .arrow {
     background: #3F4144;
     border: none;
-    margin-left:  21px; /* Добавляем левый отступ к кнопке "bttn arrow" */
+    margin-left: 21px;
+    /* Добавляем левый отступ к кнопке "bttn arrow" */
 }
 
 .history__img {
-    border-radius:   20px;
-    width:   100%; /* Установите ширину, чтобы картинка занимала всю доступную ширину */
-    height: auto; /* Установите высоту на auto, чтобы сохранить пропорции картинки */
+    border-radius: 20px;
+    width: 100%;
+    /* Установите ширину, чтобы картинка занимала всю доступную ширину */
+    height: auto;
+    /* Установите высоту на auto, чтобы сохранить пропорции картинки */
 }
 
 .history__calculate {
@@ -83,4 +91,26 @@
     font-weight: 400;
     padding-top: 12px;
     display: flex;
-    justify-content: flex-end;}
+    justify-content: flex-end;
+    margin: 0;
+    padding-right: 80px;
+    padding-bottom: 82px;
+}
+
+.tiffany__card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bvglar__card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}

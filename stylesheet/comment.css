@@ -1,0 +1,110 @@
+.comment {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.avatar {
+    border-radius: 50%;
+    margin-right: 17px;
+}
+
+.comment-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.account-info {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.account-name {
+    font-size: 30px;
+}
+
+.account-title {
+    font-size: 25px;
+}
+
+.time-ago {
+    font-size: 25px;
+    color: #595959;
+}
+
+.comment-text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 27px;
+}
+
+.interactions {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #888;
+    padding-top: 24px;
+}
+
+.like-icon {
+    margin-right: 8px;
+}
+
+.like-count {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+}
+
+.reply {
+    padding-left: 85px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+}
+
+.comment-form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* Убедитесь, что .comment-form занимает всё доступное пространство */
+    padding: 32px 38px 35px;
+
+}
+
+.comment-form-container {
+    display: flex;
+    /* Используем Flexbox */
+    flex-direction: column;
+    /* Устанавливаем направление по вертикали */
+    justify-content: space-between;
+    width: 1245px;
+    height: 300px;
+    border: 9px solid #E6E7EA;
+    border-radius: 20px;
+}
+
+.comment-form textarea {
+    font-size: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #9F9F9F;
+    border: none;
+    outline: none;
+    padding-bottom: 115px;
+}
+
+
+.submit-btn {
+    align-self: flex-end;
+    /* Выравниваем кнопку по правому краю */
+    width: 158px;
+    height: 49px;
+    border: none;
+    border-radius: 10px;
+    background-color: #858B98;
+    color: #FFF;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    cursor: pointer;
+}

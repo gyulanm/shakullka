@@ -1,6 +1,5 @@
 .banner__content {
     background: url(../img/stones/banner.jpg) center center no-repeat;
-    height: 741px;
     width: 1245px;
     background-size: cover;
 }
@@ -15,4 +14,46 @@
     height: 477px;
     border-radius: 381px;
     background: #F9F9F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popular__item {
+    transition: box-shadow 0.3s ease;
+    padding: 20px 40px;
+    /* Добавляет плавный переход эффекта тени */
+}
+
+.popular__item:hover {
+    box-shadow: 0px 4px 80px 0px #004BEF4D;
+}
+
+.rhombus {
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+    padding-top: 48px;
+}
+
+.diamond {
+    position: relative;
+    width: 28px;
+    height: 28px;
+    border: 3px solid #D9D9D9;
+    /* Черная граница для всех ромбиков */
+    transform: rotate(45deg);
+    /* Поворот на 45 градусов для создания ромба */
+    background-color: transparent;
+}
+
+
+.diamond.active {
+    background-color: #fff;
+    /* Белый цвет для закрашенных ромбиков */
+    /* border: 3px solid #D9D9D9; Черная граница для всех ромбиков */
+}
+
+.hidden {
+    display: none;
 }

@@ -8,7 +8,6 @@
 .title__name {
     display: flex;
     flex-direction: row;
-    gap: 165px;
     align-items: center;
     justify-content: space-between;
 }
@@ -20,18 +19,19 @@
 }
 
 .jewelry_title {
-    font-family: 'Bickham Script One', cursive;
-    font-weight: normal;
-    font-size: 72px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 38px;
     color: #000000;
+    display: contents;
 }
 
 .grey__text {
-    font-family: Copperplate;
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 22px;
     font-weight: 200px;
     color: #7D7B7B;
 }
+
 .line {
     width: 65px;
     margin: 24px 555px;
@@ -46,17 +46,20 @@
     font-size: 19px;
     color: #7D7B7B;
 }
+
 .jewelry_flex {
     display: flex;
     flex-direction: row;
     gap: 13px;
     padding-top: 63px;
 }
+
 .grace2 {
     height: 625px;
     width: 549;
 
 }
+
 .ring {
     height: 570px;
     width: 549px;
@@ -67,9 +70,19 @@
     font-size: 19px;
     color: #7D7B7B;
 }
+
+.flex {
+    padding-top: 135px;
+}
+
 .popular__img {
     border-radius: 381px;
 }
+
+.popular__item {
+    padding: 20px 40px;
+}
+
 .bttn {
     display: flex;
     width: 42px;
@@ -82,4 +95,20 @@
     border-color: initial;
     border-image: initial;
     background: white;
+}
+
+.next_btn {
+    border: none;
+    background: none;
+    padding: 20px;
+}
+
+.next_btn {
+    border: none;
+    background: none;
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
 }

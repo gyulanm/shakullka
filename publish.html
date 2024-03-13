@@ -3,10 +3,12 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./stylesheet/common.css">
     <link rel="stylesheet" href="./stylesheet/header.css">
-    <link rel="stylesheet" href="./stylesheet/history.css">
+    <link rel="stylesheet" href="./stylesheet/publish.css">
+    <!-- <link rel="stylesheet" href="./stylesheet/post.css">
+    <link rel="stylesheet" href="./stylesheet/support.css"> -->
     <link rel="stylesheet" href="./stylesheet/footer.css">
     <title>header</title>
 </head>
@@ -32,54 +34,60 @@
                 <div class="highlight"></div>
             </div>
             <div class="header__nav nav">
-                <a class="nav__link" href="./trends.html">Тренды</a>
-                <a class="nav__link" href="./stones.html">Камни</a>
-                <a class="nav__link " href="./jewelrystory.html">Украшения</a>
-                <a class="nav__link nav__link--selected" href="./history.html">История</a>
+                <a class="nav__link " href="./trends.html">Тренды</a>
+                <a class="nav__link " href="./stones.html">Камни</a>
+                <a class="nav__link" href="./jewelrystory.html">Украшения</a>
+                <a class="nav__link" href="./history.html">История</a>
             </div>
         </div>
     </header>
     <section class="main-section">
         <div class="background">
             <div class="banner">
-                <div class="title-group">
-                    <a class="archiev title-main" href="">Архив</a>
-                    <div class="divider__second">
-                        <div class="highlight__second"></div>
-                    </div>
-                </div>
-                <div class="history">
-                    <div class="history__card tiffany__card">
-                        <a class="history__card">
-                            <button class="bttn back">
-                                <img src="./img/history/back.svg" alt="">
-                            </button>
-                            <a href="./tiffany.html">
-                                <img src="./img/history/1.jpg" href="./tiffany.html" alt="">
-                            </a>
-                            <button class="bttnnx bttn arrow">
-                                <img src="./img/history/arrow.svg" alt="">
-                            </button>
-                    </div>
-                    <div class="history__card bvglar__card hidden">
-                        <button class="bttn back">
-                            <img class="bvg__img" src="./img/history/back.svg" alt="">
-                        </button>
-                        <a href="./tiffany.html">
-                            <img src="./img/history/bvg.jpg" href="./tiffany.html" alt="">
-                        </a>
-                        <button class="bttnpr bttn arrow">
-                            <img src="./img/history/arrow.svg" alt="">
-                        </button>
+                <a href="./support.html">
+                    <button class="publishbttn">
+                        <img src="./img/publish/next.svg" alt="">
+                    </button>
+                </a>
+                <div class="fill">
+                    <div class="publish">
+                        <div class="table">
+                            <ul class="download">
+                                <label class="downl_title">Обложка</label>
+                                <label for="cover-file" class="grey__input">Выбрать файл
+                                    <img src="./img/zircon/img.svg" alt="">
+                                </label>
+                                <input class="mini" type="file" id="cover-file" hidden>
+                            </ul>
+                            <ul class="name">
+                                <label for="cover-file cover_text">Название</label>
+                                <input class="mini border__input" class="mini" type="names" id="cover-file">
+                            </ul>
+                            <ul class="description">
+                                <label for="cover-file cover_text">Описание</label>
+                                <input class="desc__input" type="descriptions" id="cover-file">
+                            </ul>
+                        </div>
+                        <div class="cover">
+                            <ul class="download">
+                                <label class="downl_title">Обложка</label>
+                                <label for="cover-file" class="grey__input">Выбрать файл
+                                    <img src="./img/zircon/img.svg" alt="">
+                                </label>
+                                <input class="mini" type="file" id="cover-file" hidden>
+                            </ul>
+                            <ul class="name">
+                                <label for="cover-file cover_text">Тэги</label>
+                                <input class="mini border__input" class="mini" type="names" id="cover-file">
+                            </ul>
+                            <ul class="publish-bttn">
+                                <a class="publish-btn" href="./post.html">Опубликовать
+                                    <img class="arrow" src="./img/publish/nexxt.svg" alt=""></a>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-            <h2 class="history__calculate">1/5</h2>
-            <h2 class="history__calculate hidden">2/5</h2>
-            <h2 class="history__calculate hidden">3/5</h2>
-            <h2 class="history__calculate hidden">4/5</h2>
-            <h2 class="history__calculate hidden">5/5</h2>
-        </div>
         </div>
         </div>
     </section>
@@ -144,5 +152,4 @@
         </div>
         </div>
     </footer>
-    <script src="slider.js"></script>
 </body>

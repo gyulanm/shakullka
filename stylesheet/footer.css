@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
 footer {
     background: #1A1A1A;
 }
 
-.row {
+.row,
+.column {
     max-width: 1400px;
     margin: 0 auto;
     padding: 1px;
@@ -13,16 +14,6 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     gap: 350px;
-}
-
-.column {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 1px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 85px;
 }
 
 .distribution__title {
@@ -58,7 +49,6 @@ footer {
 
 .footer__common {
     text-decoration: none;
-
 }
 
 .text--opacity {
@@ -88,7 +78,6 @@ footer {
     line-height: normal;
     opacity: 0.6;
     margin-top: 19px;
-
 }
 
 .footer__name {
@@ -121,7 +110,6 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
 
 .follow {
@@ -158,7 +146,6 @@ footer {
     top: 0;
     right: 0;
     bottom: 0;
-
 }
 
 .footer__subtitle {
@@ -217,7 +204,6 @@ footer {
 .form__white {
     background-color: white;
     color: #1A1A1A;
-    ;
 }
 
 .info-wrapper {
@@ -231,7 +217,6 @@ footer {
     text-align: left;
     font-family: Copperplate;
     font-size: 38px;
-
 }
 
 .info-row {
@@ -250,3 +235,63 @@ footer {
     line-height: normal;
     padding-right: 55px;
 }
+
+/* @media (min-width: 1440px) {
+    .follow__email {
+        border-radius: 11px 59px 34px 11px;
+        background: transparent;
+        width: 500px;
+        height: 69px;
+        box-sizing: border-box;
+        border: 1px solid white;
+    }
+
+} */
+
+/* @media (max-width: 820px) {
+
+    .row,
+    .column {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .footer_word,
+    .footer__name,
+    .footer__text,
+    .distribution__title {
+        font-size: 100%;
+    }
+
+    .follow__email {
+        border-radius: 11px 59px 34px 11px;
+        background: transparent;
+        width: 451px;
+        height: 50px;
+        box-sizing: border-box;
+        border: 1px solid white;
+    }
+
+    .follow__btn {
+        width: 170px;
+        height: 55px;
+        border-radius: 30px;
+        background: var(--white, #FFF);
+        text-align: center;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    }
+} */
+

@@ -27,6 +27,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 14px;
 }
 
 .banner__text {
@@ -35,6 +36,7 @@
     font-weight: 400;
     line-height: normal;
     color: white;
+    text-align: center;
 }
 
 .banner__btn {
@@ -51,7 +53,7 @@
 }
 
 .title-main {
-    font-family: Copperplate;
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 40px;
     line-height: normal;
     font-weight: 400;
@@ -69,7 +71,7 @@
 
 .divider__second {
     height: 44px;
-    width: 956px;
+    width: 930px;
     background: linear-gradient(90deg, #4C5467 0%, #ffffff 97.04%);
     border-radius: 7px;
 }
@@ -86,7 +88,6 @@
 
 .rec__item {
     border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 20px 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -100,6 +101,7 @@
     font-weight: 400;
     padding-top: 12px;
     padding-bottom: 31px;
+    text-align: center;
 }
 
 .rec__btn {
@@ -115,5 +117,19 @@
 }
 
 .popular__item {
-    padding: 20px 40px;
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+    /* Используйте цвет текста родительского элемента */
+    text-decoration: none;
+    /* Убираем подчеркивание */
+    cursor: crosshair;
+}
+
+/* Если вы хотите изменить цвет ссылки при наведении */
+a:hover {
+    color: inherit;
+    /* Используйте цвет текста родительского элемента */
 }

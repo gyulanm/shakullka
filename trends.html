@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./stylesheet/common.css">
     <link rel="stylesheet" href="./stylesheet/header.css">
     <link rel="stylesheet" href="./stylesheet/trends.css">
@@ -20,8 +20,12 @@
                     <span class="logo_word word">Ш</span>катулка
                 </h1>
                 <div class="header__icons icons">
-                    <img class="profile" src="./img/header/profile.svg" alt="">
-                    <img class="Search" src="./img/header/Search.svg" alt="">
+                    <a href="./enter.html">
+                        <img class="profile" src="./img/header/profile.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img class="Search" src="./img/header/Search.svg" alt="">
+                    </a>
                 </div>
             </div>
             <div class="divider">
@@ -32,7 +36,6 @@
                 <a class="nav__link " href="./stones.html">Камни</a>
                 <a class="nav__link" href="./jewelrystory.html">Украшения</a>
                 <a class="nav__link" href="./history.html">История</a>
-                <a class="nav__link" href="">Обмен</a>
             </div>
         </div>
     </header>
@@ -44,7 +47,15 @@
                         кампуса ВШЭ
                     </h2>
                     <button class="banner__btn">#украшения</button>
-                    <!-- ромбики -->
+                    <div class="rhombus">
+                        <div class="diamond" data-imageUrl="./img/trends/bannerimg.jpg" id="diamond1"></div>
+                        <div class="diamond" data-imageUrl="./img/stones/banner.jpg" id="diamond2"></div>
+                        <div class="diamond" data-imageUrl="./img/trends/bannerimg.jpg" id="diamond3"></div>
+                        <div class="diamond" data-imageUrl="./img/stones/banner.jpg" id="diamond4"></div>
+                        <div class="diamond" data-imageUrl="./img/trends/bannerimg.jpg" id="diamond5"></div>
+                        <div class="diamond" data-imageUrl="./img/stones/banner.jpg" id="diamond6"></div>
+                        <!-- ромбики -->
+                    </div>
                 </div>
                 <div class="recommendations">
                     <div class="wrapper">
@@ -54,18 +65,28 @@
                                 <div class="highlight__second"></div>
                             </div>
                         </div>
-                        <div class="rec__visible">
+                        <div class="rec__visible rec__slider">
                             <div class="rec__flex">
-                                <div class="rec__item">
+                                <div class="rec__item rec_gap" id="card1">
                                     <img class="rec__img" src="./img/trends/card1.jpg" alt="">
                                     <p class="rec__text text">Cartier готовят несколько<br>проектов со
                                         студентами<br>петербургского кампуса ВШЭ<br></p>
                                     <button class="rec__btn">#Камни</button>
                                 </div>
-                                <div class="rec__item">
+                                <div class="rec__item rec_gap" id="card2">
                                     <img class="rec__img" src="./img/trends/card2.jpg" alt="">
-                                    <p class="rec__text text">Cartier готовят несколько<br>проектов со
-                                        студентами<br>петербургского кампуса ВШЭ<br></p>
+                                    <p class="rec__text text">Бриллианты лучшие<br>друзья девушек?</p>
+                                    <button class="rec__btn">#Камни</button>
+                                </div>
+                                <div class="rec__item rec_gap hidden" id="card3">
+                                    <img class="rec__img" src="./img/trends/necklace.jpg" alt="">
+                                    <p class="rec__text text">Выбираем мусульманские<br>украшения<br></p>
+                                    <button class="rec__btn">#Камни</button>
+                                </div>
+                                <div class="rec__item rec_gap hidden" id="card4">
+                                    <img class="rec__img" src="./img/trends/zircon.jpg" alt="">
+                                    <p class="rec__text text">Циркон  с персидского так и<br>переводится –
+                                        «золотой»,<br>«солнечный»<br></p>
                                     <button class="rec__btn">#Камни</button>
                                 </div>
                             </div>
@@ -83,8 +104,8 @@
                                 <div class="highlight__second"></div>
                             </div>
                         </div>
-                        <div class="popular rec__visible">
-                            <div class="popular__flex rec__flex">
+                        <div class="popular rec__visible popular__slider">
+                            <div class="popular__flex rec__flex ">
                                 <div class="popular__item rec__item">
                                     <img class="popular__img rec__img" src="./img/trends/card3.jpg" alt="">
                                     <p class="popular__text rec__text text"> Трансформируемое колье<br>Snowflake
@@ -99,6 +120,23 @@
                                 <div class="popular__item rec__item">
                                     <img class="popular__img rec__img" src="./img/trends/card5.jpg" alt="">
                                     <p class="popular__text rec__text text">ROSE Х Tiffany HardWear</p>
+                                    <button class="popular__btn rec__btn">#Камни</button>
+                                </div>
+                                <div class="popular__item rec__item hidden">
+                                    <img class="popular__img rec__img" src="./img/trends/6.jpg" alt="">
+                                    <p class="popular__text rec__text text"> Крупный сапфир<br>в обрамлении
+                                        риллиантов<br>б— это брошь</p>
+                                    <button class="popular__btn rec__btn">#Камни</button>
+                                </div>
+                                <div class="popular__item rec__item hidden">
+                                    <img class="popular__img rec__img" src="./img/trends/7.jpg" alt="">
+                                    <p class="popular__text rec__text text"> Элизабет Тейлор<br>— королева рубинов</p>
+                                    <button class="popular__btn rec__btn">#Камни</button>
+                                </div>
+                                <div class="popular__item rec__item hidden">
+                                    <img class="popular__img rec__img" src="./img/trends/8.jpg" alt="">
+                                    <p class="popular__text rec__text text"> В переводе с итальянского<br>«Serpenti» —
+                                        это «змеи»</p>
                                     <button class="popular__btn rec__btn">#Камни</button>
                                 </div>
                             </div>
@@ -172,4 +210,14 @@
         </div>
         </div>
     </footer>
+    <script src="script.js"></script>
+    <script src="diamond.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            createSlider('.popular__slider');
+            createSlider('.rec__slider');
+        });
+    </script>
 </body>
+
+</html>

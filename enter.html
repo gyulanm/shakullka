@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./stylesheet/common.css">
     <link rel="stylesheet" href="./stylesheet/header.css">
-    <link rel="stylesheet" href="./stylesheet/history.css">
+    <link rel="stylesheet" href="./stylesheet/enter.css">
     <link rel="stylesheet" href="./stylesheet/footer.css">
     <title>header</title>
 </head>
@@ -32,55 +32,35 @@
                 <div class="highlight"></div>
             </div>
             <div class="header__nav nav">
-                <a class="nav__link" href="./trends.html">Тренды</a>
-                <a class="nav__link" href="./stones.html">Камни</a>
-                <a class="nav__link " href="./jewelrystory.html">Украшения</a>
-                <a class="nav__link nav__link--selected" href="./history.html">История</a>
+                <a class="nav__link nav__link--selected" href="./trends.html">Тренды</a>
+                <a class="nav__link " href="./stones.html">Камни</a>
+                <a class="nav__link" href="./jewelrystory.html">Украшения</a>
+                <a class="nav__link" href="./history.html">История</a>
             </div>
         </div>
     </header>
     <section class="main-section">
         <div class="background">
             <div class="banner">
-                <div class="title-group">
-                    <a class="archiev title-main" href="">Архив</a>
-                    <div class="divider__second">
-                        <div class="highlight__second"></div>
-                    </div>
-                </div>
-                <div class="history">
-                    <div class="history__card tiffany__card">
-                        <a class="history__card">
-                            <button class="bttn back">
-                                <img src="./img/history/back.svg" alt="">
+                <div class="enter">
+                    <h1 class="title__enter">Вход в аккаунт</h1>
+                    <div class="wrapper__denter">
+                        <input class="mail" type="mail" value="Почта" readonly>
+                        <input class="password" type="password" value="Пароль" readonly>
+                        <a href="./support.html">
+                            <button class="enter_btn">
+                                <p class="btn__text">Войти</p>
                             </button>
-                            <a href="./tiffany.html">
-                                <img src="./img/history/1.jpg" href="./tiffany.html" alt="">
-                            </a>
-                            <button class="bttnnx bttn arrow">
-                                <img src="./img/history/arrow.svg" alt="">
-                            </button>
-                    </div>
-                    <div class="history__card bvglar__card hidden">
-                        <button class="bttn back">
-                            <img class="bvg__img" src="./img/history/back.svg" alt="">
-                        </button>
-                        <a href="./tiffany.html">
-                            <img src="./img/history/bvg.jpg" href="./tiffany.html" alt="">
                         </a>
-                        <button class="bttnpr bttn arrow">
-                            <img src="./img/history/arrow.svg" alt="">
-                        </button>
+                    </div>
+                    <div class="reg">
+                        <p class="not">Нет аккаунта?</p>
+                        <a href="./regist.html">
+                            <p class="regist">Регистрация</p>
+                        </a>
                     </div>
                 </div>
             </div>
-            <h2 class="history__calculate">1/5</h2>
-            <h2 class="history__calculate hidden">2/5</h2>
-            <h2 class="history__calculate hidden">3/5</h2>
-            <h2 class="history__calculate hidden">4/5</h2>
-            <h2 class="history__calculate hidden">5/5</h2>
-        </div>
-        </div>
         </div>
     </section>
     <footer>
@@ -92,7 +72,8 @@
                         <h1 class="footer__name title--wht">
                             <span class="footer_word">Ш</span>катулка
                         </h1>
-                        <p class="footer__text">Шкатулка — самый утонченный медиа-сервис,<br>хранящий истории
+                        <p class="footer__text">Шкатулка — самый утонченный
+                            медиа-сервис,<br>хранящий истории
                             легендарных
                             украшений<br>и драгоценных камней</p>
                     </div>
@@ -122,7 +103,8 @@
                                     <div class="footer__info">
                                         <h3 class="footer__subtitle">О нас</h3>
                                         <ul class="footer__menu">
-                                            <li><a class="footer__common text--opacity " href="">Команда</a></li>
+                                            <li><a class="footer__common text--opacity " href="">Команда</a>
+                                            </li>
                                             <li><a class="footer__common text--opacity " href="">Правила
                                                     платформы</a>
                                             </li>
@@ -132,7 +114,8 @@
                                 <ul class="footer__detals">
                                     <li><a class="footer__common common--white ">Пользовательское
                                             соглашение</a></li>
-                                    <li><a class="footer__common common--white " href="">HSE ADC</a></li>
+                                    <li><a class="footer__common common--white " href="">HSE ADC</a>
+                                    </li>
                                     <a class="copyright">@2023</a>
                                 </ul>
                             </div>
@@ -140,9 +123,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
-        </div>
     </footer>
-    <script src="slider.js"></script>
 </body>
+
+</html>
