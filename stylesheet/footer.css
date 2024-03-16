@@ -129,6 +129,7 @@ footer {
     height: 69px;
     box-sizing: border-box;
     border: 1px solid white;
+    color: white;
 }
 
 .follow__btn {
@@ -295,3 +296,43 @@ footer {
     }
 } */
 
+@media (max-width: 768px) {
+    .row, .column {
+        flex-direction: column; /* Строки и столбцы будут располагаться вертикально */
+        gap: 20px; /* Уменьшаем расстояние между элементами */
+    }
+
+    .distribution__title, .footer__name, .footer_word {
+        font-size: 20px; /* Уменьшаем размер шрифта */
+    }
+
+    .follow__email, .follow__btn {
+        width: 100%; /* Элементы занимают всю ширину контейнера */
+    }
+
+    .footer__detals {
+        flex-direction: column; /* Элементы располагаются вертикально */
+        gap: 10px; /* Уменьшаем расстояние между элементами */
+    }
+
+    .subscribe__wrapper {
+        margin-top: 200px; /* Уменьшаем верхний отступ */
+    }
+
+    .form__input, .form__btn {
+        font-size: 20px; /* Уменьшаем размер шрифта */
+    }
+}
+@media (max-width: 480px) {
+    .distribution__title, .footer__name, .footer_word {
+        font-size: 16px; /* Уменьшаем размер шрифта еще больше */
+    }
+
+    .subscribe__wrapper {
+        margin-top: 150px; /* Уменьшаем верхний отступ еще больше */
+    }
+
+    .form__input, .form__btn {
+        font-size: 16px; /* Уменьшаем размер шрифта еще больше */
+    }
+}
