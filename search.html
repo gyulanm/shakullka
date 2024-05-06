@@ -3,10 +3,15 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./stylesheet/search.css">
     <link rel="stylesheet" href="./stylesheet/common.css">
     <link rel="stylesheet" href="./stylesheet/header.css">
-    <link rel="stylesheet" href="./stylesheet/enter.css">
+    <link rel="stylesheet" href="./stylesheet/zircon.css">
+    <link rel="stylesheet" href="./stylesheet/jewelry.css">
+    <link rel="stylesheet" href="./stylesheet/jewelrystory.css">
+    <link rel="stylesheet" href="./stylesheet/stones.css">
+    <link rel="stylesheet" href="./stylesheet/comment.css">
     <link rel="stylesheet" href="./stylesheet/footer.css">
     <title>header</title>
 </head>
@@ -31,37 +36,34 @@
             <div class="divider">
                 <div class="highlight"></div>
             </div>
-            <div class="header__nav nav">
-                <a class="nav__link nav__link--selected" href="./trends.html">Тренды</a>
+            <div class="haeder__nav nav">
+                <a class="nav__link " href="./trends.html">Тренды</a>
                 <a class="nav__link " href="./stones.html">Камни</a>
-                <a class="nav__link" href="./jewelrystory.html">Украшения</a>
+                <a class="nav__link nav__link--selected" href="./jewelrystory.html">Украшения</a>
                 <a class="nav__link" href="./history.html">История</a>
             </div>
         </div>
     </header>
-    <section class="main-section">
-        <div class="background">
-            <div class="banner">
-                <div class="enter">
-                    <h1 class="title__enter">Вход в аккаунт</h1>
-                    <div class="wrapper__denter">
-                        <input class="mail" type="mail" value="Почта" readonly>
-                        <input class="password" type="password" value="Пароль" readonly>
-                        <a href="./support.html">
-                            <button class="enter_btn">
-                                <p class="btn__text">Войти</p>
-                            </button>
-                        </a>
-                    </div>
-                    <div class="reg">
-                        <p class="not">Нет аккаунта?</p>
-                        <a href="./regist.html">
-                            <p class="regist">Регистрация</p>
-                        </a>
-                    </div>
-                </div>
-            </div>
+    <section class="search">
+        <div class="identify">
+            <input type="text" placeholder="Поиск" required="" class="form__input--large">
+            <img class="search-bttn" src="./img/search/SearchForInput.svg" alt="">
         </div>
+    </section>
+    <nav class="menu__filter filter">
+        <button class="filter__link article-hashtag " data-filter-type="all" href="#">Камни</button>
+        <button class="filter__link article-hashtag filter__link-bl filter__link--selecteed"
+            data-filter-type="recommendations" href="#">Украшения</button>
+    </nav>
+    <div class="catalog__wrapper">
+        <a class="cards__item card card--long">
+            <img class="card__img img__diana" src="./img/search/zircon.jpg" alt="">
+            <h2 class="card__title">Циркон</h2>
+            <p class="card__text">Цирко́н (нем. Zirkon ← перс. زرگون[заргун] «золотистый») — минерал подкласса
+                островных силикатов, ортосиликат циркония ZrSiO4...</p>
+            <p class="author__text">Автор: Анастасия Волковская</p>
+        </a>
+    </div>
     </section>
     <footer>
         <div class="container">
@@ -124,6 +126,8 @@
                 </div>
             </div>
     </footer>
+    <script src="search.js">
+    </script>
 </body>
 
 </html>

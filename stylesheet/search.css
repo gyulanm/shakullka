@@ -1,0 +1,72 @@
+.search {}
+
+.identify {
+    width: 100%;
+    margin-left: 235px;
+}
+
+.form__input--large {
+    width: 631px;
+    margin-top: 149px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #000000;
+    padding: 13px 27px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 24px;
+    background: transparent;
+}
+
+.search-bttn {
+    margin-left: -60px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    column-gap: 57px;
+}
+
+.menu__filter {
+    margin-left: 235px;
+    padding-top: 40px;
+    background: transparent;
+    border-radius: 10px;
+
+}
+
+.filter__link--selecteed {
+    background: black;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.filter__link {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 35px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: transparent;
+    padding-block: 7px;
+    padding-inline: 22px;
+    padding: 11px 110px;
+}
+
+.filter__link-bl {
+    background-color: black;
+    color: #FFFFFF;
+    margin-left: -20px;
+}
+
+.cards__item {
+    margin-left: 235px;
+    padding-top: 85px;
+    padding-bottom: 25px;
+}
