@@ -31,7 +31,7 @@
 }
 
 .num__link {
-    font-family: 'Copperplate';
+    font-family: 'TT Firs Neue Trl', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -72,7 +72,7 @@
 .info_subtitle {
     color: #000000;
     font-size: 32px;
-    font-family: 'Copperplate', serif;
+    font-family: 'TT Firs Neue Trl', sans-serif;
     font-weight: 400;
     line-height: normal;
     margin-block: 8px;
@@ -81,7 +81,7 @@
 .info_text {
     color: #000000;
     font-size: 18px;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'TT Firs Neue Trl', sans-serif;
     font-weight: 200;
 }
 

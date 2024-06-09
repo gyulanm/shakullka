@@ -3,7 +3,7 @@
 }
 
 .supname {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'TT Firs Neue Trl', sans-serif;
     font-size: 30px;
 }
 
@@ -18,7 +18,7 @@ ul {
 }
 
 .social {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'TT Firs Neue Trl', sans-serif;
     font-size: 27px;
 }
 
@@ -32,7 +32,7 @@ ul {
 }
 .article__link {
     text-decoration: none;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'TT Firs Neue Trl', sans-serif;
     font-size: 27px;
 }
 
@@ -43,7 +43,7 @@ ul {
     padding-bottom: 49px;
 }
 .article__text {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'TT Firs Neue Trl', sans-serif;
     font-size: 35px;
     text-align: center;
 }
@@ -53,7 +53,7 @@ ul {
     border-radius: 13px;
     background: black;
     text-align: center;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'TT Firs Neue Trl', sans-serif;
     font-size: 25px;
     color: white;
     cursor: crosshair;

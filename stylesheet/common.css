@@ -3,6 +3,26 @@
     src: url(../fonts/bickham-script-one.woff);
 }
 
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Italic.ttf') format('truetype');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Firs Neue Trl';
+    src: url('fonts/TTFirsNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'TT Firs Neue Trl';
+    src: url('fonts/TTFirsNeue-Medium.ttf') format('truetype');
+    font-weight: 500;
+    /* Средний вес, адаптируйте под ваш файл */
+}
+
+
 .main-section {
     background: #EEEDEC;
 }
@@ -31,7 +51,7 @@
 }
 
 .banner__text {
-    font-family: Copperplate;
+    font-family: 'TT Firs Neue Trl', sans-serif;
     font-size: 29px;
     font-weight: 400;
     line-height: normal;
@@ -45,7 +65,7 @@
     border-radius: 7px;
     border: none;
     color: #FFFFFF;
-    font-family: Copperplate;
+    font-family: 'TT Firs Neue Trl', sans-serif;
     font-size: 17px;
     font-weight: 400;
     line-height: normal;
@@ -53,11 +73,11 @@
 }
 
 .title-main {
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 40px;
+    font-family: Playfair display;
+    font-size: 49px;
     line-height: normal;
     font-weight: 400;
-    color: #666D7D;
+    color: #1A1A1A;
     text-decoration: none;
 }
 
@@ -72,7 +92,7 @@
 .divider__second {
     height: 44px;
     width: 930px;
-    background: linear-gradient(90deg, #4C5467 0%, #ffffff 97.04%);
+    background: linear-gradient(90deg, #E5E4DC 0%, #ffffff 97.04%);
     border-radius: 7px;
 }
 
@@ -90,30 +110,50 @@
     border: 1px solid rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 }
 
-.rec__text {
-    color: #332E2E;
-    font-family: Copperplate;
-    font-size: 21px;
+.rec__name {
+    font-family: 'TT Firs Neue Trl', sans-serif;
+    font-size: 32px;
     line-height: normal;
     font-weight: 400;
     padding-top: 12px;
-    padding-bottom: 31px;
-    text-align: center;
+    color: #332E2E;
+}
+
+.rec__text {
+    font-family: 'TT Firs Neue Trl', sans-serif;
+    font-size: 19px;
+    line-height: normal;
+    color: #332E2E;
 }
 
 .rec__btn {
     border: 1px solid #272727;
-    font-family: Copperplate;
+    font-family: 'TT Firs Neue Trl', sans-serif;
     font-size: 14px;
     line-height: normal;
     font-weight: 400;
-    text-transform: uppercase;
-    padding: 20px 37px;
+    padding: 12px 18px;
     border-radius: 531px;
     background: none;
+    width: 125px;
+}
+
+
+
+.bttn_save {
+    display: flex;
+    flex-direction: row-reverse;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.save-icon {
+    width: 24px;
+    height: 24px;
 }
 
 .popular__item {

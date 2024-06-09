@@ -17,7 +17,7 @@
 }
 
 .account-info {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'TT Firs Neue Trl', sans-serif;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -37,7 +37,7 @@
 }
 
 .comment-text {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'TT Firs Neue Trl', sans-serif;
     font-size: 27px;
 }
 
@@ -54,13 +54,13 @@
 }
 
 .like-count {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'TT Firs Neue Trl', sans-serif;
     font-size: 30px;
 }
 
 .reply {
     padding-left: 85px;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'TT Firs Neue Trl', sans-serif;
     font-size: 30px;
 }
 
@@ -87,7 +87,7 @@
 
 .comment-form textarea {
     font-size: 30px;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'TT Firs Neue Trl', sans-serif;
     color: #9F9F9F;
     border: none;
     outline: none;
@@ -104,7 +104,7 @@
     border-radius: 10px;
     background-color: #858B98;
     color: #FFF;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'TT Firs Neue Trl', sans-serif;
     font-size: 22px;
     cursor: pointer;
 }

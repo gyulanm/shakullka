@@ -1,5 +1,5 @@
 .enter {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'TT Firs Neue Trl', sans-serif;
 }
 
 .title__enter {
@@ -29,7 +29,8 @@
 .wrapper__denter {
     display: flex;
     flex-direction: column;
-    gap: 23px;
+    gap: 40px;
+    margin-top: 75px;
 }
 
 .reg {
@@ -47,7 +48,7 @@
 }
 
 .btn__text {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'TT Firs Neue Trl', sans-serif;
     font-size: 21px;
     color: white;
     text-align: center;
@@ -64,7 +65,7 @@
 }
 
 .use {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'TT Firs Neue Trl', sans-serif;
     font-size: 23px;
     color: black;
 }
@@ -72,7 +73,7 @@
     transform: rotate(180deg);
 }
 .backarrow__text {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'TT Firs Neue Trl', sans-serif;
     font-size: 22px;
     color: #595959;
 }

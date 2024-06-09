@@ -23,7 +23,7 @@ ul {
 
 label {
     padding-bottom: 17px;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'TT Firs Neue Trl', sans-serif;
     font-size: 29px;
 }
 
@@ -51,7 +51,7 @@ input {
 
 .publish-btn {
     border: none;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'TT Firs Neue Trl', sans-serif;
     font-size: 27px;
     display: flex;
     align-items: center;
@@ -71,7 +71,7 @@ input {
 }
 
 .grey__input {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'TT Firs Neue Trl', sans-serif;
     font-size: 27px;
     text-align: center;
     padding: 12px 100px;

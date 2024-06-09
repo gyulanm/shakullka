@@ -10,17 +10,11 @@
     display: flex;
     align-items: center; 
     justify-content: space-around; 
+    padding: 40px;
 }
 .logo {
     width: 54px;
     height: 54px;
-}
-.word {
-    font-family: Bickham Script One;
-    font-size: 154px;
-    font-weight: 400;
-    line-height: normal;
-    display: inline;
 }
 .header__icons {
     column-gap: 30px;
@@ -28,8 +22,8 @@
     flex-direction: row;
 }
 .title {
-    font-family: Copperplate;
-    font-size: 54px;
+    font-family: Playfair display;
+    font-size: 35px;
     font-weight: 400;
     line-height: normal;
     margin: 0;
@@ -47,7 +41,7 @@
     color: #D0BB9A;
 }
 .nav {
-    font-family: 'Nunito Sans';
+    font-family: 'TT Firs Neue Trl', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 23px;
