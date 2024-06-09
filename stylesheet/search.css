@@ -19,10 +19,13 @@
     line-height: 24px;
     background: transparent;
 }
+
 .catalog__wrapper {
     display: flex;
     flex-direction: row;
 }
+
+
 .search-bttn {
     margin-left: -60px;
 }
