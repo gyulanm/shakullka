@@ -21,7 +21,9 @@
     width: 100%;
 
 }
-
+.banner__cartier {
+    background: url(../img/zircon/bannerzircon.jpg) center center no-repeat;
+}
 .num {
     display: flex;
     flex-direction: column;
@@ -62,8 +64,8 @@
 } */
 .info_title {
     color: #000000;
-    font-size: 183px;
-    font-family: 'Bickham Script One', cursive;
+    font-size: 80px;
+    font-family: 'TT Firs Neue Trl', sans-serif;
     font-weight: normal;
     margin: 0;
     line-height: 183px;
@@ -123,4 +125,9 @@
 .magazin_img {
     width: 399px;
     height: 585px;
+}
+
+.box_img {
+    width: 289px;
+    height: 383px;
 }

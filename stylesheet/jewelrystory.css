@@ -53,12 +53,15 @@
     grid-column: span 2;
     text-decoration: none;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    margin-top: 114px;
-    margin-bottom: 114px;
+    /* margin-top: 114px;
+    margin-bottom: 114px; */
     padding: 26px 26px 19px 47px;
     align-items: center;
 }
-
+.article_card {
+    width: 650px;
+    height: 580px;
+}
 .card__img {
     
 }
