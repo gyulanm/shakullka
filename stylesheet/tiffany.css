@@ -11,7 +11,7 @@
     flex-direction: column;
     row-gap: 280px;
     width: 100%;
-    padding-top: 149px;
+    padding-top: 1150px;
 }
 
 .tiffany_history {
@@ -21,9 +21,33 @@
     width: 100%;
 
 }
-.banner__cartier {
-    background: url(../img/zircon/bannerzircon.jpg) center center no-repeat;
+
+.banner {
+    background: url(../img/tiffany/cartierbanner.png) no-repeat;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.banner__cartier {
+    color: #FFFFFF;
+    align-content: center;
+    font-family: 'TT Firs Neue Trl', sans-serif;
+    padding: 68px 343px 0px 475px;
+}
+
+.banner__heading {
+    font-size: 85px;
+    font-weight: 200;
+}
+
+.text__cartier {
+    font-size: 25px;
+
+}
+
 .num {
     display: flex;
     flex-direction: column;
@@ -130,4 +154,26 @@
 .box_img {
     width: 289px;
     height: 383px;
+}
+
+.years_cartier {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 72px;
+}
+
+.years_img {
+    padding-left: 20px;
+}
+
+.cartier_img {
+    padding-bottom: 72px;
+}
+
+.number__nav {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 445px;
 }

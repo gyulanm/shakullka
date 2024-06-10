@@ -78,3 +78,8 @@
 .hidden {
     display: none;
 }
+.rhombus {
+    display: flex;
+    flex-direction: row;
+    gap: 21px;}
+    
